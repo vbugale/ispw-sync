@@ -67,5 +67,5 @@ outputs:
     description: 'The changed programs JSON'
 runs:
   using: 'docker'
-  image: 'docker://bmccompuware/ispwcli:v20.7.1.gtk.ga'
+  image: 'docker://pun-harborpd-01.bmc.com/code-pipeline/ispwcli:latest'
 
