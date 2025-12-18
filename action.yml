@@ -67,5 +67,5 @@ outputs:
     description: 'The changed programs JSON'
 runs:
   using: 'docker'
-  image: 'docker://psg-hrbr-aus.bmc.com/code-pipeline/cp-cli-253:latest'
+  image: 'docker://psg-hrbr-aus.bmc.com/code-pipeline/cp-cli-253:1.0.0'
 
