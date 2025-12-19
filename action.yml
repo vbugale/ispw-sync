@@ -68,4 +68,4 @@ outputs:
 runs:
   using: 'docker'
   # image: 'docker://pun-harborpd-01.bmc.com/code-pipeline/ispwcli:latest'
-  image: 'docker://psg-hrbr-aus.bmc.com/code-pipeline/cp-cli-253:1.1.0'
+  image: 'docker://psg-hrbr-aus.bmc.com/code-pipeline/cp-cli-253:1.0.0'
