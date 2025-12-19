@@ -28,7 +28,10 @@ inputs:
     required: true
   pass:
     description: 'Mainframe password'
-    required: true
+    required: false
+  certificate:
+    description: 'Client certificate'
+    required: false
   runtimeConfiguration:
     description: 'Runtime configuration'
     required: true
@@ -41,6 +44,9 @@ inputs:
     description: 'The Code Pipeline Application'
     required: true
     default: 'PLAY'
+  subAppl:
+    description: 'The Code Pipeline Sub Application'
+    required: false
   checkoutLevel:
     description: 'The test level to check components out to'
     required: true
