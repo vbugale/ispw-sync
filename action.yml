@@ -74,4 +74,4 @@ outputs:
 runs:
   using: 'docker'
   # image: 'docker://pun-harborpd-01.bmc.com/code-pipeline/ispwcli:latest'
-  image: 'docker://artifactory.bmc.com/lp0wv-amicodepipeline-docker-dev-local/bmc-ami-devx-codepipeline-sync:25.04.01'
+  image: 'docker://artifactory.bmc.com/lp0wv-amicodepipeline-docker-dev-local/bmc-ami-devx-codepipeline-sync:latest'
